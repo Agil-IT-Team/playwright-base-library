@@ -1,0 +1,24 @@
+{
+  "name": "playwright-base-library",
+  "version": "0.3.0",
+  "main": "src/main.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint eslint.config.js src/",
+    "lint-fix": "eslint --fix eslint.config.js src/"
+  },
+  "author": "oussama",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^24.1.0",
+    "playwright": "^1.54.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "eslint-plugin-jsdoc": "^52.0.1",
+    "globals": "^16.3.0"
+  }
+}
